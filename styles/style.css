@@ -1,3 +1,99 @@
+/* universal and imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
 * {
-    color: blue;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+     /* border: 1px solid green;   */
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 0 25px;
+}
+
+/* Header Section Style */
+header {
+    position: static;
+    height: 1322px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* menubar and logo */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 102px;
+    padding-top: 50px;
+}
+
+nav h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+nav {
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+
+}
+
+.menu li {
+    text-align: right;
+    display: inline;
+    list-style-type: none;
+    padding-right: 72px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+
+/* landing section */
+
+.landing {
+    text-align: center;
+
+}
+
+.landing h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+
+.landing p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.description {
+    width: 46%;
+    margin: auto;
+    margin-bottom: 33px;
+}
+
+.landing .btn-primary {
+    margin-bottom: 50px;
+}
+
+.landing img {
+    width: 75%;
+    height: auto;
 }
