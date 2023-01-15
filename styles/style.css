@@ -28,6 +28,10 @@ html {
     padding: 0 25px;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+}
+
 main {
     width: 100%;
 }
@@ -404,7 +408,12 @@ hr {
     .experience .btn-primary {
         transform: scale(180%);
     }
-
+    .sponsor-imgs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsor-imgs img {
+        margin-top: 8%;
+    }
     .experience {
         grid-template-columns: repeat(1, 1fr);
         margin-top: 15%;
@@ -453,11 +462,28 @@ hr {
         height: auto;
         padding-bottom: 15%;
     }
+    .achievments {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .achievments div {
+        margin-bottom: 5%;
+        transform: scale(80%);
+    }
 }
 
 /* smartphone */
 
 @media only screen and (max-width:688px) {
+    .achievments {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .achievments div {
+        margin-bottom: 5%;
+        transform: scale(80%);
+    }
+    .sponsor-imgs {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .experience .btn-primary {
         transform: scale(150%);
     }
